@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 10px;
+}
+
+.example {
+  border: 1px solid;
+  padding: 30px;
+  text-align: center;
+  margin: 16px;
+  align-items: flex-start;
+  
+}
+
+.etiquette-container {
+  width: 380px;
+  position: relative;
+  height: 165px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.etiquette {
+  width: 330px;
+  height: 120px;
+  border: 2px solid black;
+  background: #e0adad;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-size: 40px;
+  font-family: Brush Script MT;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.d-flex{
+  display: flex;
+  
+}
+
+.numeID{
+  background-color: white;
+  width: 200px;
+  border: 2px solid rgb(10, 10, 10);
+  padding: 50px;
+  margin-left: 1070px;
+  margin-top: 25px;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.numeID.color{
+  color: rgb(30, 202, 214);
+  
+}
+
+.removeEtiquette{
+  background-color: rgb(255, 16, 16);
+  width: 200px;
+  border: 2px solid rgb(10, 10, 10);
+  margin-left: 84px;
+  cursor: pointer;
+
+}
+
+.textNume.hide{
+  display: none;
+}
+
+#grad {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+
+
